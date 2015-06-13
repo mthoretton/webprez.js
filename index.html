@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	 	<meta charset="utf-8">
+		<title></title>
+	 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	 	<link rel="stylesheet" href="css/style.css">
+	 	<script src="lib/jquery/jquery.min.js"></script>
+	 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	 	<script src="content.json"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-1 col-md-offset-1">
+						<span id="btn-prev-page" class="btn glyphicon glyphicon-triangle-left"></span >
+					</div>
+					<div class="col-md-8">
+						<h1 id="page-title"></h1>
+					</div>
+					<div class="col-md-1">
+						<span id="btn-next-page" class="btn glyphicon glyphicon-triangle-right"></span >
+					</div>
+					<div class="col-md-1">
+					<span id="btn-reload-page" class="btn glyphicon glyphicon-refresh"></span >
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container-fluid">
+			<div id="content" class="row">
+				<div id="left-cpanel" class="cpanel col-md-7">
+					<div id="images-container">
+					</div>
+				</div>
+				<div id="right-cpanel" class="cpanel col-md-5">
+					<div id="panels-container">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="modal-message" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</body>
+</html>

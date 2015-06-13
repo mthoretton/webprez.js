@@ -1,0 +1,64 @@
+var json =
+[
+	{
+		"parameters": {
+			"animationTime": 400,
+			"inversePanels": false, // switch image and panel position
+			"bColor":"#272822",
+			"headerFontSize": "2.6em",
+			"headerColor":"white",
+			"headerBColor":"#036897",
+			"panelHeaderFontSize":"1.5em",
+			"panelHeaderColor":"white",
+			"panelHeaderBColor":"#337ab7",
+			"panelContentFontSize":"1.3em",
+			"panelContentLineHeight":"1.2em",
+			"panelContentColor":"black",
+			"panelContentBColor":"white",
+			"imageBorderStyle":"solid",
+			"imageBorderWidth":"1px",
+			"imageBordercolor":"white"
+		},
+		"pages":
+		[
+			{
+				"title" : "Page 1",
+				"image" : "img-1-0.jpg",
+				"colLeftSize":"7", // >=0 && <=12 (bootstrap)
+				"panels" : [
+					{
+						"title" : "1. First slide title",
+						"image" : "img-1-1.jpg",
+						"imgMode":"0", // >=0 <= 3 see style.css
+						"content" : [
+							"First point",
+								["Add style to your text","indent-1 puce-1"],
+									["$ echo \"Hello World\"","indent-2 code"]
+						]
+					},
+					{
+						"title" : "2. Second slide title",
+						"image" : "img-1-2.jpg",
+						"content" : [
+							["First point","indent-1 quotation underline"]
+						]
+					},
+				]
+			},
+			{
+				"title" : "Page 2",
+				"image" : "img-1-0.jpg",
+				"colLeftSize":"7", // >=0 && <=12 (bootstrap)
+				"panels" : [
+					{
+						"title" : "Panel Title 1",
+						"image" : "img-1-1.jpg",
+						"content" : [
+							"First point",
+						]
+					}
+				]
+			}
+		]
+	}
+];

@@ -1,0 +1,37 @@
+.panel-body .code {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	background-color: #333;
+	color: white;
+}
+.panel-body .puce-1:before {
+    content: "\25FE \ "; /* caractère ISO 10646 */ /*2022*/
+}
+.panel-body .puce-2:before {
+    content: "\25FD \ "; /* caractère ISO 10646 */
+}
+.panel-body .indent-1 {
+	margin-left: 25px;
+}
+.panel-body .indent-2 {
+	margin-left: 50px;
+}
+.panel-body .space {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.panel-body .space-top {
+	padding-top: 5px;
+}
+.panel-body .space-bottom {
+	padding-bottom: 5px;
+}
+.panel-body .quotation {
+	color: gray;
+	font-style: italic;
+}
+.panel-body .underline {
+	text-decoration: underline;
+}
+/* do your own :) */
